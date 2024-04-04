@@ -467,7 +467,7 @@ WELCOME_MSG = "\n".join(
     (
         f"Welcome to {BASE_DOMAIN}.",
         "To see a list of commands, use !help.",
-        "We have a public (Discord)[https://discord.gg/ShEQgUx]!",
+        "We have a public (Discord)[https://discord.gg/2Q4tFfy74Z]!",
         "Enjoy the server!",
     ),
 )
@@ -475,11 +475,11 @@ WELCOME_MSG = "\n".join(
 RESTRICTED_MSG = (
     "Your account is currently in restricted mode. "
     "If you believe this is a mistake, or have waited a period "
-    "greater than 3 months, you may appeal via the form on the site."
+    "greater than 3 months, you may apeal on our (Discord)[https://discord.gg/2Q4tFfy74Z]."
 )
 
 WELCOME_NOTIFICATION = app.packets.notification(
-    f"Welcome back to {BASE_DOMAIN}!\nRunning bancho.py v{app.settings.VERSION}.",
+    f"Welcome to osu!NoLimits.",
 )
 
 OFFLINE_NOTIFICATION = app.packets.notification(
